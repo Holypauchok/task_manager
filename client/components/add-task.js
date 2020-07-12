@@ -44,24 +44,6 @@ const AddTask = () => {
             add
           </button>
         </div>
-        {/* <div className="content__field">
-          <input
-            type="text"
-            title="title"
-            className="content__input"
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-          />
-        </div> */}
-        {/* <div className="content__add">
-          <button
-            type="button"
-            className="content__submit content__submit"
-            onClick={() => setNewTask()}
-          >
-            <span>Add</span>
-          </button>
-        </div> */}
       </div>
     </div>
   )
