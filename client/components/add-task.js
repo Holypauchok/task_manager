@@ -22,7 +22,7 @@ const AddTask = () => {
   //    }
   //  }
   return (
-    <div className="content__form">
+    <div className="flex justify-around pb-6">
       <Filter />
       <div className="max-w-sm">
         <div className="flex items-center border-b border-b-2 border-teal-500 py-2">
