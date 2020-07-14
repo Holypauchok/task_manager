@@ -164,7 +164,7 @@ server.get('/api/v1/tasks/:category/:timespan', async (req, res) => {
         {
           title: rec['title'],
           status: rec['status'],
-          created: date
+          _createdAt: date
         }
       ]
     }
