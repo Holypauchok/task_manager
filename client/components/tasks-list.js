@@ -24,11 +24,11 @@ const TasksList = () => {
         <div className="w-4/6">
           {tasksList.map((task) => {
             return (
-              <div key={task.taskId} className="flex justify-between">
+              <div key={task.taskId} className="flex justify-between font-semibold mb-2">
                 <div className="w-1/4">{task.title}</div>
                 <div className="w-1/4">{task.status}</div>
                 <div className="w-1/4">{task['_createdAt']}</div>
-                <div className="w-10">
+                <div className="w-10 cursor-pointer text-red-600">
                   <svg
                     onClick={() => dispatch(deleteTask(category, task.taskId))}
                     width="24"

@@ -12,7 +12,7 @@ const Filter = () => {
       {['all', 'day', 'week', 'month'].map((it) => {
         return (
           <button
-            className="px-3"
+            className="px-4 text-purple-700 font-semibold focus:outline-none hover:text-purple-900 hover:shadow-lg"
             key={it}
             type="button"
             onClick={(e) => clickedDate(e.currentTarget.innerText)}
